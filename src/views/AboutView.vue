@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-gray-600 space-y-5 p-60">
+  <div class="flex flex-col min-h-screen  space-y-5 p-60 bg-slate-800">
     <!-- Header -->
-    <header class="bg-white shadow px-4"></header>
+    <header class="bg-white shadow "></header>
 
     <!-- Main content -->
     <main class="flex-1 flex items-center justify-center">
@@ -111,13 +111,13 @@
                 @click="selectedColor = color; generateColors3()"
               ></div>
             </div>
-            <div class="flex items-center space-x-2">
-              <label class="font-medium text-cyan-400 mb-4 w-full">Numero di colori:</label>
+            <div class="">
+              <label class="font-medium text-cyan-400  w-full mr-2">Numero di colori:</label>
               <input
                 type="number"
                 min="2"
                 v-model.number="colorCount3"
-                class="border rounded p-1 w-4/6"
+                class="border rounded p-1 w-2/6"
               />
             </div>
           </div>
