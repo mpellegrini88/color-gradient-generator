@@ -26,7 +26,7 @@
 
 /* Classe personalizzata per lo sfondo animato */
 .bg-gradient-animated {
-  background: linear-gradient(270deg, #8fed93, #2f8553, #189355, #05593f);
+  background: linear-gradient(270deg, #a1dddf, #64cfc4, #23a4a4, #063b46);
   background-size: 400% 400%;
   animation: gradient-animation 6s ease infinite;
 }
